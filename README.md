@@ -29,6 +29,12 @@ import AspectImage from 'react-aspect-image';
 ...
 ```
 
+## To-Do
+
+[x] aspect-mode
+[ ] aspect-fill-mode
+[ ] detect mode
+
 
 
 ### Notes
@@ -38,6 +44,4 @@ This is my first ever open source project. Please correct me if you see any mist
 ## License
 
 MIT License
-
-Copyright (c) 2017 Rock Hu.
 
