@@ -31,9 +31,9 @@ import AspectImage from 'react-aspect-image';
 
 ## To-Do
 
-[x] aspect-mode
-[ ] aspect-fill-mode
-[ ] detect mode
+* [x] aspect-mode
+* [ ] aspect-fill-mode
+* [ ] detect mode
 
 
 
