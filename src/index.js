@@ -36,7 +36,6 @@ class AspectImage extends Component {
 
     imageLoaded = ({target}) =>{
         const imageSize= {width: target.offsetWidth, height: target.offsetHeight};
-        console.log(imageSize);
         const size = this.getDimentionByMode(this.state.mode, imageSize);
         this.setState({
             loading: false,
