@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import noImage from './img/no_image.png';
 
 class AspectImage extends Component {
     constructor(props) {
@@ -16,6 +15,7 @@ class AspectImage extends Component {
 
     // Return default image if there is no default image props passed in
     getFallbackImage = () => {
+    	var noImage = require("./img/no_image.png");
         return this.props.fallback || noImage;
     }
 
